@@ -1,0 +1,22 @@
+
+IS105 Lab definisjoner
+
+mkdir: Denne kommandoen brukes dersom en ønsker å opprette en ny mappe/directory. "mkdir nymappe" lager en ny mappe som en kan videre lage ny mapper i eller opprette filer i.
+
+cd: Denne kommandoen benyttes dersom en ønsker å forflytte "posisjonen" sin fra en mappe til en annen. F.eks dersom man er i "mappe1" samtidig som mappe2 er en underordnet mappe, så skriver en "cd "mappe" så vil en havne i mappe 2. Cd står for "change directory", endre mappe rett og slett.
+
+ls: benyttes for å få opp en liste av hva en mappen en er i inneholder, enter det er mapper eller filer.
+
+ls -l
+
+ls -la
+
+pwd: benyttes for å forklare meg hvilken directory jeg befinner meg i for øyeblikket, "Print working directory", "printer" beskjed på skjermen med informasjon om hvor jeg befinner meg.
+
+pipes and redirection: pipes eller "l" som den ofte blir referert som gjør det mulig for deg å passere "output'en" av en kommando via "input" av en annen kommando. Redirection handler om hva en ønsker å fortelle en kommand til å gjøre. Dersom vi benytter "more" kommando slik "more < minfil", da vil more kommandoen ta sin standard input fra "myfile" filen istedenfor fra tastaturet eller en annen kilde/fil.
+
+grep: benyttes dersom du ønsker å søke etter "pattern"/mønster i en liste av filer. Mønsterene blir spesifisert som "regular expression", som f.eks "strings."
+
+cat : benyttes for å se innholdet av en fil. står for concatenation.
+
+less: benyttes for å se på filer som sitt innholder overskrider skjermens kapasitet.  Dersom den benyttes så vil filens innhold bli presentert i begrenset størrelser slik at skjermen kan følge med. 

@@ -7,5 +7,3 @@ print "i could have code like this." # and the comment after is ignored
 #print "this wont run."
 
 print "this will run."
-
-# leksa her var at python ignorerer alt på linje med "#".
